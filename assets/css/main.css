@@ -1,0 +1,56 @@
+*{
+	margin:0;
+	margin-top: 2%;
+	font-family: Tulpen One;
+	font-weight: 400;
+	font-size: 130%;
+}
+h1{
+	text-align: center;
+}
+ul,ol{
+	list-style: none;
+}
+
+.slideshow{
+	width: 100%;
+	position: relative;
+}
+.slider{
+	padding-left: 0;
+}
+.slider li, ul{
+	width: 100%;
+}
+.slider li img{
+	width:100%;
+}
+.pagination{
+	position: absolute;
+	display: flex;
+	width: 95%;
+	justify-content: center;
+}
+.pagination li{
+	font-size: 20px;
+	margin:2px 5px;
+	cursor: pointer;
+}
+.left , .right{
+	position: absolute;
+	top:0;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	color:white;
+	font-size: 40px;
+}
+.left{
+	left: 25px;
+	cursor: pointer;
+}
+.right{
+	margin-left: 1250px;
+	cursor: pointer;
+
+}
